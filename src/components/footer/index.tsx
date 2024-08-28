@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <>
-      <footer className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white">
-        <div className="container px-5 pt-5">
-          <div className="mb-2 flex justify-center space-x-2">
+      <footer className="flex flex-col items-center bg-zinc-50 text-center text-surface dark:bg-neutral-700 dark:text-white mt-5">
+        <div className="container pt-4">
+          <div className="mb-1 flex justify-center space-x-4">
             <a
               href="https://www.facebook.com/basem.saeed.585/"
               type="button"
@@ -74,7 +74,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="w-full bg-black/5 p-4 text-center text-lg">
+        <div className="w-full bg-black/5 p-2 text-center text-lg">
           © 2024 Copyright:
           <a href="" > Basem Saeed</a>
         </div>
