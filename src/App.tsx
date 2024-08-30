@@ -58,6 +58,8 @@ function App() {
     setTempColor([]);
     setProduct(defaultProductObj);
     closeModal();
+    closeEditModal();
+    closeConfirmModel();
   };
 
   const onchangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
@@ -327,7 +329,7 @@ function App() {
             <div className="flex items-center space-x-3 ">
               <Button
                 className=" bg-gray-400 hover:bg-gray-600 w-full"
-                onClick={closeEditModal}
+                onClick={onCancel} type="button"
               >
                 Cancel
               </Button>
@@ -346,7 +348,7 @@ function App() {
           <div className="flex items-center space-x-3 ">
             <Button
               className=" bg-gray-400 hover:bg-gray-600 w-full"
-              onClick={closeConfirmModel}
+              onClick={onCancel}
             >
               Cancel
             </Button>
